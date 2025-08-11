@@ -1,21 +1,21 @@
 {
-  "name": "rest-api-client",
-  "publisher": "unjinjang",
-  "displayName": "REST API Client",
+  "name": "postcat",
+  "publisher": "DENNISMUUO",
+  "displayName": "PostCat API client",
   "icon": "icons/images/icon.png",
-  "description": "Simple and intuitive API Client made into a VSCode extension.",
+  "description": "Lightweight Postman alternative for VS Code",
   "version": "1.1.5",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/REST-API-Client/API-Client-VSCode-Extension/issues"
+    "url": "https://github.com/dennismutuku2005/postcat/issues"
   },
   "author": {
-    "name": "Unjin Jang",
-    "email": "unwls0@gmail.com"
+    "name": "DENNIS MUUO",
+    "email": "dennismuuo.dev@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/REST-API-Client"
+    "url": "https://github.com/dennismutuku2005/postcat"
   },
   "engines": {
     "vscode": "^1.68.0"
@@ -36,14 +36,14 @@
     "api-client"
   ],
   "activationEvents": [
-    "onCommand:rest-api-client.newRequest",
-    "onView:rest-api-client.collectionMenu"
+    "onCommand:postcat.newRequest",
+    "onView:postcat.collectionMenu"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "rest-api-client.newRequest",
+        "command": "postcat.newRequest",
         "category": "Start",
         "title": "New Request"
       }
@@ -51,8 +51,8 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "RESTAPIClient",
-          "title": "REST API Client",
+          "id": "postcat",
+          "title": "PostCat API Client",
           "icon": "icons/svg/httpIcon.svg"
         }
       ]
@@ -61,9 +61,9 @@
       "RESTAPIClient": [
         {
           "type": "webview",
-          "id": "rest-api-client.collectionMenu",
-          "name": "REST API Client",
-          "contextualTitle": "REST API Client"
+          "id": "postcat.collectionMenu",
+          "name": "PostCat API Client",
+          "contextualTitle": "PostCat API Client"
         }
       ]
     }

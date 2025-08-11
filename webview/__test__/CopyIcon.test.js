@@ -31,7 +31,7 @@ afterEach(() => {
 
 describe("CopyIcon component test", () => {
   it("should copy code to clipboard when icon is clicked", async () => {
-    const stringValue = "Very important REST API Client code 🧐";
+    const stringValue = "Very important PostCat API Client code 🧐";
 
     const { getByRole } = render(
       <CopyIcon handleClick={handleCopyIconClick} value={stringValue} />,

@@ -1,5 +1,5 @@
 const NAME = {
-  MAIN_PANEL_NAME: "REST API Client",
+  MAIN_PANEL_NAME: "PostCat API Client",
   RESPONSE: "Response",
 };
 
