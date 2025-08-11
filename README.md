@@ -200,4 +200,5 @@ If you found any bugs while using this extension or you have a suggestion please
 
 This extension is released under the [MIT license](https://github.com/REST-API-Client/API-Client-VSCode-Extension/blob/main/LICENSE).
 #   p o s t c a t - c l i e n t  
+ #   p o s t c a t - c l i e n t  
  
