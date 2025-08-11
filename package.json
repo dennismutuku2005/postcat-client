@@ -1,0 +1,133 @@
+{
+  "name": "rest-api-client",
+  "publisher": "unjinjang",
+  "displayName": "REST API Client",
+  "icon": "icons/images/icon.png",
+  "description": "Simple and intuitive API Client made into a VSCode extension.",
+  "version": "1.1.5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/REST-API-Client/API-Client-VSCode-Extension/issues"
+  },
+  "author": {
+    "name": "Unjin Jang",
+    "email": "unwls0@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/REST-API-Client"
+  },
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Testing"
+  ],
+  "keywords": [
+    "api",
+    "http",
+    "REST",
+    "client",
+    "postman",
+    "request",
+    "response",
+    "api-client"
+  ],
+  "activationEvents": [
+    "onCommand:rest-api-client.newRequest",
+    "onView:rest-api-client.collectionMenu"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "rest-api-client.newRequest",
+        "category": "Start",
+        "title": "New Request"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "RESTAPIClient",
+          "title": "REST API Client",
+          "icon": "icons/svg/httpIcon.svg"
+        }
+      ]
+    },
+    "views": {
+      "RESTAPIClient": [
+        {
+          "type": "webview",
+          "id": "rest-api-client.collectionMenu",
+          "name": "REST API Client",
+          "contextualTitle": "REST API Client"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "dev": "webpack --mode development --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "test-compile": "tsc -p ./",
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@testing-library/dom": "^8.16.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.5",
+    "@types/postman-collection": "^3.5.7",
+    "@types/uuid": "^9.0.1",
+    "@vscode/test-electron": "^2.1.3",
+    "assert": "^2.0.0",
+    "babel-loader": "^8.2.5",
+    "buffer": "^6.0.3",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.18.0",
+    "eslint-plugin-jest": "^26.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "glob": "^8.0.3",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
+    "jest-svg-transformer": "^1.0.0",
+    "jest-transform-stub": "^2.0.0",
+    "mocha": "^10.0.0",
+    "path-browserify": "^1.0.1",
+    "style-loader": "^3.3.1",
+    "url": "^0.11.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.4.5",
+    "@types/react": "^18.0.35",
+    "@types/styled-components": "^5.1.26",
+    "@types/vscode": "^1.77.0",
+    "axios": "^0.27.2",
+    "form-data": "^4.0.0",
+    "postman-code-generators": "^1.2.2",
+    "postman-collection": "^4.1.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-spinners": "^0.13.3",
+    "styled-components": "^5.3.5",
+    "ts-loader": "^9.4.2",
+    "use-debounce": "^8.0.2",
+    "uuid": "^8.3.2",
+    "zustand": "^4.0.0-rc.1"
+  }
+}
