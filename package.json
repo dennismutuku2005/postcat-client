@@ -4,7 +4,7 @@
   "displayName": "PostCat API client",
   "icon": "icons/images/icon.png",
   "description": "Lightweight Postman alternative for VS Code",
-  "version": "1.1.5",
+  "version": "2.0.0",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dennismutuku2005/postcat/issues"
