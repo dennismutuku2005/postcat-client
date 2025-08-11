@@ -1,4 +1,4 @@
-````markdown
+```markdown
 <!-- Banner / Logo -->
 <p align="center">
   <img src="assets/postcat-logo.png" alt="PostCat Logo" width="150"/>
@@ -124,3 +124,4 @@ npm run watch
   Made with ❤️ by <strong>Dennis Muuo Mutuku</strong>
 </p>
 ```
+
