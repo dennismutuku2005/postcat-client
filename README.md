@@ -1,6 +1,6 @@
 <!-- Banner / Logo -->
 <p align="center">
-  <img src="icons/images/icon.png.png" alt="PostCat Logo" width="150"/>
+  <img src="icons/images/icon.png" alt="PostCat Logo" width="150"/>
 </p>
 
 <h1 align="center">🐱 PostCat – API Client for VS Code</h1>
