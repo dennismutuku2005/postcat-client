@@ -1,6 +1,6 @@
 <!-- Banner / Logo -->
 <p align="center">
-  <img src="assets/postcat-logo.png" alt="PostCat Logo" width="150"/>
+  <img src="icons/images/icon.png" alt="PostCat Logo" width="150"/>
 </p>
 
 <h1 align="center">🐱 PostCat – API Client for VS Code</h1>
@@ -123,4 +123,5 @@ npm run watch
 <p align="center">
   Made with ❤️ by <strong>Dennis Muuo Mutuku</strong>
 </p>
+
 
