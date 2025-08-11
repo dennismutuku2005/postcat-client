@@ -53,7 +53,7 @@
         {
           "id": "postcat",
           "title": "PostCat API Client",
-          "icon": "icons/images/icon.png"
+          "icon": "icons/svg/httpIcon.svg"
         }
       ]
     },
