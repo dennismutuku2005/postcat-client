@@ -96,7 +96,7 @@ Or install directly from the [VS Code Marketplace](https://marketplace.visualstu
 
 ```bash
 # Clone the repository
-git clone https://github.com/dennismutuku2005/postcat.git
+git clone https://github.com/dennismutuku2005/postcat-client.git
 
 # Open in VS Code
 cd postcat
