@@ -1,10 +1,10 @@
-```markdown
 <!-- Banner / Logo -->
 <p align="center">
   <img src="assets/postcat-logo.png" alt="PostCat Logo" width="150"/>
 </p>
 
 <h1 align="center">🐱 PostCat – API Client for VS Code</h1>
+
 <p align="center">
   A lightweight API testing and management extension for <strong>Visual Studio Code</strong>.<br>
   Send requests, manage collections, and view history — all without leaving your editor.
@@ -86,10 +86,10 @@ Or install directly from the [VS Code Marketplace](https://marketplace.visualstu
 
 ## ⚡ Commands
 
-| Command                | Description                                  |
-|------------------------|----------------------------------------------|
-| `PostCat: Open`        | Opens the main PostCat request panel         |
-| `PostCat: Show Sidebar`| Opens the PostCat sidebar with collections   |
+| Command                 | Description                                  |
+|-------------------------|----------------------------------------------|
+| `PostCat: Open`         | Opens the main PostCat request panel         |
+| `PostCat: Show Sidebar` | Opens the PostCat sidebar with collections   |
 
 ---
 
@@ -108,20 +108,18 @@ npm install
 
 # Run the extension in debug mode
 npm run watch
-````
+```
 
 ---
 
 ## 🌐 Links
 
-* **Website:** [postcat.dev](https://postcat.dev) *(replace with your actual site)*
-* **Instagram:** [@muuo\_dev](https://instagram.com/muuo_dev)
-* **WhatsApp:** [Message me](https://wa.me/254793527494)
+- **Website:** [postcat.dev](https://postcat.dev) *(replace with your actual site)*
+- **Instagram:** [@muuo_dev](https://instagram.com/muuo_dev)
+- **WhatsApp:** [Message me](https://wa.me/254793527494)
 
 ---
 
 <p align="center">
   Made with ❤️ by <strong>Dennis Muuo Mutuku</strong>
 </p>
-```
-
