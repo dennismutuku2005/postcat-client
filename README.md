@@ -92,18 +92,3 @@ Or install directly from the [VS Code Marketplace](https://marketplace.visualstu
 
 ---
 
-## 📂 Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/dennismutuku2005/postcat-client.git
-
-# Open in VS Code
-cd postcat
-code .
-
-# Install dependencies
-npm install
-
-# Run the extension in debug mode
-npm run watch
